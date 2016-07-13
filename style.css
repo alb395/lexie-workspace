@@ -1,0 +1,16 @@
+h1 {
+	color: red;
+
+}
+
+.red {
+	background-color: red;
+	color: white;
+
+}
+
+.blue {
+	background-color: blue;
+	color: white;
+	margin-bottom: 10px;
+}

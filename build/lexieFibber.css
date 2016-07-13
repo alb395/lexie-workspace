@@ -1,0 +1,158 @@
+#splashscreen {
+	padding-top: 50px;
+	line-height: 1.5;
+}
+
+#mainview {
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 1.5;
+
+}
+
+h2 {
+	color: orange !important;
+}
+
+#start-btn {
+	border-radius: 5px;
+	margin: 20px;
+
+}
+
+.btn-hover {
+	background-color: #2262A2;
+	color: white;
+	border: none;	
+}
+
+#viewstatement {
+	background-color: #2262A2;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#summary {
+	text-color: white;
+	margin: 10px;
+	padding: 5px;
+	width: 320px;
+	margin: auto;
+}
+
+.side {
+	width: 160px;
+	display: inline-block;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+#side-left {
+	float: left;
+}
+
+#side-right {
+	float: right;
+}
+
+.center {
+	width: 320px;
+	display: inline-block;
+	margin: 10px;
+	
+}
+
+#center-content {
+	padding: 20px;
+	background-color: white;
+	color: black;
+}
+
+#quote {
+	font-size: 1.5em;
+
+}
+
+#attribution {
+	font-size: .9em;
+	color: gray;
+}
+
+.candidate {
+
+}
+
+.circle {
+	background-color: orange;
+	font-size: 1.5em;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	line-height: 100px;
+}
+
+.name {
+	margin: 10px;
+}
+
+.clothing {
+
+	margin: 10px;
+}
+
+.clothing-item {
+	background-color: orange;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 2px;
+}
+
+.player-clothing-item {
+	background-color: orange;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 3px;
+
+}
+
+.choose {
+	font-size: 1.5em;
+	width: 100px;
+	margin: auto;
+	line-height: 40px;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+#truth {
+	background-color: green;
+}
+
+
+#fib {	
+	background-color: red;
+}
+
+#menu {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	text-decoration: none;
+}
+
+#menu-button { 
+ 	color: white;
+ }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+
+<head>
+
+    <title>Fibber</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="build/icons.css" />
+
+    <link rel="stylesheet" type="text/css" href="build/af.ui.css" />
+
+    
+
+    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://rawgit.com/ftlabs/fastclick/master/lib/fastclick.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.shim.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.ui.js"></script>
+
+
+    <script src="src/af.desktopBrowsers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.actionsheet.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.animation.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.touchEvents.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.popup.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.drawer.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.toast.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.animateheader.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.splashscreen.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.swipereveal.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.lockscreen.js"></script>
+
+     <script type="text/javascript" charset="utf-8" src="src/lexieFibber.js"></script>
+
+<!--hey jQuery! When the document is ready, call this function. -->
+
+    <script>
+
+    $(document).ready(function(){
+        fibber.init();
+    });
+
+
+
+    </script>
+</head>
+
+<body >
+
+
+    <div id="splashscreen" class='ui-loader heavy'>
+                Fibber
+                <br>
+                <br>
+                <span class='ui-icon ui-icon-loading spin'></span>
+                <h1>Starting app...</h1>
+
+            </div>
+
+
+
+    <div class="view">
+        <div class="pages">
+
+            <div class="panel" id="home-panel" >
+
+                <br>
+                
+                    <h1>Instructions</h1>
+                    <br>
+                    <a class="icon add big" style="text-decoration: none; color: #0088D1;" href="#panel-2" data-transition="up">View More</a>
+                    <p>
+                        
+                    </p>
+
+                    <a href="#viewstatement" class="button" >START</a>
+            </div>
+
+            <div class="panel" id="viewstatement">
+                <br>
+                
+                    <h1>VIEW STATEMENT</h1>
+                    <br>
+                    <p>
+                    LexiCorp is a really great website. There are lots of things you can find here.
+                    </p>
+                    <p>
+                    The purpose of this website is to teach you about things.
+                    </p>
+                        <br>
+                        <span id="test">RALPH</span>
+                        <br>
+                        <br>
+                    <a href="#home-panel" class="icon remove big" style="text-decoration: none; color: #0088D1;" data-transition="down">View Less</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

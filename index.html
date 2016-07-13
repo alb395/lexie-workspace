@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+
+<head>
+
+    <title>Fibber</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="build/icons.css" />
+    <link rel="stylesheet" type="text/css" href="build/af.ui.css" />
+    <link rel="stylesheet" type="text/css" href="build/lexieFibber.css" />
+
+    <script type="text/javascript" charset="utf-8" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://rawgit.com/ftlabs/fastclick/master/lib/fastclick.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.shim.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.ui.js"></script>
+
+
+    <script src="src/af.desktopBrowsers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.actionsheet.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.animation.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.touchEvents.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.popup.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.drawer.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.toast.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.animateheader.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.splashscreen.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.swipereveal.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/af.lockscreen.js"></script>
+
+     <script type="text/javascript" charset="utf-8" src="src/lexieFibber.js"></script>
+
+<!--hey jQuery! When the document is ready, call this function. -->
+
+    <script>
+
+    $(document).ready(function(){
+        fibber.initialize();
+    });
+
+
+
+    </script>
+</head>
+
+<body >
+
+
+    <div id="splashscreen" class='ui-loader heavy'>
+                <h2>fibber</h2>
+                <br>
+                <br>
+                <span class='ui-icon ui-icon-loading spin'></span>
+                <h1>Starting app...</h1>
+
+            </div>
+
+
+
+    <div class="view">
+        <div class="pages">
+
+            <div class="panel" id="mainview" >
+
+                <h2>fibber</h2>
+                <br>
+                
+                    <strong>how to play</strong>
+                    <br><br>
+                    1. read statement<br>
+                    2. decide if it's a truth or a fib<br>
+                    3. first person naked loses.<br><br>
+                    
+                    <a href="#viewstatement" class="button" id="start-btn">START</a>
+            </div>
+
+            <div class="panel" id="viewstatement">
+
+
+                <div id="menu">
+                    <a href="#mainview" ><i id="menu-button" class="fa fa-bars"></i></a>
+                </div>
+               
+                
+                <div>
+                    
+                    <div id="summary">
+                        Hillary Clinton says market forces made coal companies go bankrupt
+                    </div>
+
+                    <div class="side" id="side-left">
+                    
+                        <div class="candidate">
+                            
+                            <div class="circle">
+                                HRC
+                            </div>
+
+                            <div class="name">
+                                hillary clinton
+                            </div>
+                            <div class="clothing">
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#">
+                            <div class="choose" id="truth">TRUTH</div>
+                        </a>
+                        <a href="#">
+                            <div class="choose" id="fib">FIB</div>
+                        </a>
+                    </div>
+
+
+                <div class="center">
+                    <div id="center-content">
+                        <div id="quote">
+                            "The market is making this decision. The market has driven down the cost of coal, so you have companies going bankrupt."
+                        </div> 
+                        <div id="attribution">
+                        <br><br>
+                            - an interview with CNN's Anderson Cooper
+                        </div>
+                        
+                    </div>
+                    <div class="clothing">
+                            <div class="player-clothing-item">
+                            </div>
+                            <div class="player-clothing-item">
+                            </div>
+                            <div class="player-clothing-item">
+                            </div>
+                            <div class="player-clothing-item">
+                            </div>
+                            <div class="player-clothing-item">
+                            </div>
+                        </div>
+                </div>
+
+                    <div class="side" id="side-right">
+                        <div class="candidate">
+                                
+                            <div class="circle">
+                                DT
+                            </div>
+
+                            <div class="name">
+                                donald trump
+                            </div>
+                            <div class="clothing">
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                                <div class="clothing-item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
