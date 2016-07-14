@@ -7,7 +7,7 @@ fibber.initialize = function() {
 };
 
 fibber.start = function() {
-	alert("Start button clicked...");
+	alert("Ready to start judging?");
 };
 
 
