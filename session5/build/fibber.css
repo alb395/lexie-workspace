@@ -7,15 +7,15 @@ include in the index.html in the <head> using the following code:
 */
 
 #splashscreen{
-	background-color: #000000 !important;
+    background-color: #000000 !important;
 }
 
 #instructions{
-	text-align: center;
+    text-align: center;
 }
 
 body .afPopup {
-	width: 70%;
+    width: 70%;
     padding: 20px;
     color: #ffffff;
     background-color: #000000;
@@ -23,7 +23,7 @@ body .afPopup {
 }
 
 #mask{
-	opacity: .8 !important;
+    opacity: .8 !important;
 }
 
 .afPopup > HEADER {
@@ -35,55 +35,55 @@ body .afPopup {
 }
 
 .panel {
-	background-color: #000000;
-	color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .button{
-	border-radius: 5px;
+    border-radius: 5px;
     background-color: #ff7f50 !important;
     color: #000000 !important;
     border: 0px !important;
 }
 
 .card{
-	box-shadow: 0 1px 4px #000000;
+    box-shadow: 0 1px 4px #000000;
 }
 
 .menu-btn{
-	background-color: #333333 !important;
+    background-color: #333333 !important;
     color: #000000 !important;
     border-radius: 0px;
     float: left;
 }
 
 .game-btn{
-	margin: 1px;
+    margin: 1px;
     padding: 10px 5px 10px 5px;
     width: 80px;
     color: #ffffff !important;
     font-size: 18px
 }
 .fib-btn{
-	background-color: rgba(255, 96, 0, 0.54) !important;
+    background-color: rgba(255, 96, 0, 0.54) !important;
     font-weight: 300;
 }
 .truth-btn{
-	background-color: rgba(74, 150, 37, 0.6) !important;
+    background-color: rgba(74, 150, 37, 0.6) !important;
     font-weight: 300;
 }
 
 #gameheader{
-	border-bottom: 1px solid #222222 !important;
-	margin-bottom: 5px;
-	text-align: center;
+    border-bottom: 1px solid #222222 !important;
+    margin-bottom: 5px;
+    text-align: center;
 }
 #gametitle{
-	font-size: 20px;
+    font-size: 20px;
     color: #563211;
 }
 .gametitle-splash{
-	font-size: 50px;
+    font-size: 50px;
     color: coral;
     font-weight: 200;
 }
@@ -94,14 +94,14 @@ body .afPopup {
     margin-bottom: 15px;
 }
 .lives-count-box{
-	padding: 2px 12px 1px 12px;
+    padding: 2px 12px 1px 12px;
     border: 1px solid #1f1e1e;
     display: inline-block;
 }
 
 .col-char{
-	width: 25%;
-	text-align: center;
+    width: 25%;
+    text-align: center;
     padding: 0px;
     float: left;
 }
@@ -114,13 +114,13 @@ body .afPopup {
     float: left;
 }
 .char-name{
-	font-size: 23px;
+    font-size: 23px;
     color: #ffffff;
     margin-bottom: 5px;
     font-weight: 100;
 }
 .char-draw{
-	border: 2px solid #ffffff;
+    border: 2px solid #ffffff;
     background: #ffffff;
     border-radius: 100px;
     width: 70%;
@@ -141,8 +141,8 @@ body .afPopup {
     color: #696969;
 }
 .statement-date{
-	color: #484848;
-	font-size: smaller;
+    color: #484848;
+    font-size: smaller;
 }
 
 #counter-player{
@@ -206,14 +206,14 @@ top: 30%;
 }
 
 .live-item{
-	width: 10px;
+    width: 10px;
     height: 10px;
     background-color: #ffcc00;
     display: inline-block;
     margin: 1px;
 }
 .live-item-removed{
-	width: 10px;
+    width: 10px;
     height: 10px;
     background-color: #000000;
     display: inline-block;
